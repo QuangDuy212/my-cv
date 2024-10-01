@@ -1,5 +1,5 @@
 import { TypeAnimation } from 'react-type-animation';
-import duy from 'src/assets/img/hero/duy.jpg';
+import duy from 'src/assets/img/about/avatarEdited.jpg';
 import hero2 from 'src/assets/img/hero/2.jpg'
 
 const HomeCV = () => {
@@ -23,10 +23,10 @@ const HomeCV = () => {
                         <div className="content hero">
                             <div className="inner_content">
                                 <div className="image_wrap">
-                                    <img src={duy} alt="hero" />
+                                    <img src={duy} alt="hero" style={{ objectFit: "cover" }} />
                                 </div>
                                 <div className="name_holder">
-                                    <h3>Quang <span>Duy</span></h3>
+                                    <h3> Nguyễn Quang <span>Duy</span></h3>
                                 </div>
                                 <div className="text_typing">
                                     <p>I'm a
@@ -34,9 +34,9 @@ const HomeCV = () => {
                                         <TypeAnimation
                                             sequence={[
                                                 // Same substring at the start will only be typed out once, initially
-                                                'Freelancer',
+                                                'Frontend Developer',
                                                 2000, // wait 1s before replacing "Mice" with "Hamsters"
-                                                'UI/UX Designer',
+                                                'Java Backend Developer',
                                                 2000,
                                                 'Web Developer',
                                                 2000,

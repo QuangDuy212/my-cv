@@ -1,6 +1,8 @@
-import duy1 from 'src/assets/img/about/duy1.jpg';
+import duy1 from 'src/assets/img/about/avatarEdited.jpg';
 import about from 'src/assets/img/about/550x640.jpg';
 import cvduy from 'src/assets/duy.pdf';
+import english from 'src/assets/cvEng.pdf'
+import vietnam from 'src/assets/cvViet.pdf'
 import { TypeAnimation } from 'react-type-animation';
 import { useEffect, useRef } from 'react';
 import Parallax from 'parallax-js';
@@ -52,9 +54,9 @@ const About = () => {
                                             <TypeAnimation
                                                 sequence={[
                                                     // Same substring at the start will only be typed out once, initially
-                                                    'Freelancer',
+                                                    'Frontend Developer',
                                                     2000, // wait 1s before replacing "Mice" with "Hamsters"
-                                                    'UI/UX Designer',
+                                                    'Java Backend Developer',
                                                     2000,
                                                     'Web Developer',
                                                     2000,
@@ -69,9 +71,9 @@ const About = () => {
                                     <div className="definition">
                                         <p>Xin chào mình là <strong>Duy</strong>. Vốn là lập trình viên website, cơ mà mình có sở thích là No code.</p>
                                         &nbsp;
-                                        <p>Mình đã học nhiều thứ về frontend nhưng vẫn chưa đủ. Mình luôn theo đuổi đam mê code web của mình.</p>
+                                        <p>Mình đã học nhiều thứ về frontend và backend nhưng vẫn chưa đủ. Mình luôn theo đuổi đam mê code web của mình.</p>
                                         &nbsp;
-                                        <p>Hiện tại mình là sinh viên năm 2. </p>
+                                        <p>Hiện tại mình là sinh viên năm 3. </p>
                                     </div>
                                     <div className="about_short_contact_wrap">
                                         <ul>
@@ -88,12 +90,12 @@ const About = () => {
                                                 <span><label>Chuyên ngành:</label> Công nghệ thông tin</span>
                                             </li>
                                             <li>
-                                                <span><label>Facebook:</label>
-                                                    <a href="https://www.facebook.com/profile.php?id=100079731466553">Duy Nguyễn</a>
+                                                <span><label>Github:</label>
+                                                    <a href="https://github.com/QuangDuy212">Quang Duy</a>
                                                 </span>
                                             </li>
                                             <li>
-                                                <span><label>Tốt nghiệp:</label> Giỏi</span>
+                                                <span><label>CPA:</label> 3.40</span>
                                             </li>
                                             <li>
                                                 <span><label>Mail:</label> <a href="mailto:duy2k4ml1234@gmail.com">duy2k4ml1234&#64;gmail.com</a></span>
@@ -103,7 +105,10 @@ const About = () => {
                                     <div className="buttons_wrap">
                                         <ul>
                                             <li>
-                                                <a href={cvduy} download><span>Download CV</span></a>
+                                                <a href={english} download><span>Download CV English</span></a>
+                                            </li>
+                                            <li>
+                                                <a href={vietnam} download><span>Download CV Vietnamese</span></a>
                                             </li>
                                         </ul>
                                     </div>

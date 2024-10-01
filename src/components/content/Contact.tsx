@@ -17,14 +17,25 @@ const Contact = () => {
                                 </div>
                                 <div className="short_info_wrap">
                                     <ul>
+                                        <li><p><label>SĐT:</label>
+                                            <span>
+                                                0398809872
+                                            </span>
+                                        </p>
+                                        </li>
                                         <li><p><label>Email:</label>
                                             <span><a href="mailto:duy2k4ml1234@gmail.com">duy2k4ml1234@gmail.com</a>
                                             </span>
                                         </p>
                                         </li>
-                                        <li><p><label>Website:</label>
+                                        <li><p><label>Github:</label>
                                             <span>
-                                                <a href="mailto:example@gmail.com">www.yourdomain.com</a>
+                                                <a href="https://github.com/QuangDuy212">Quang Duy</a>
+                                            </span>
+                                        </p></li>
+                                        <li><p><label>Địa chỉ:</label>
+                                            <span>
+                                                Phố Nhổn, Bắc Từ Liêm, Hà Nội
                                             </span>
                                         </p></li>
                                     </ul>

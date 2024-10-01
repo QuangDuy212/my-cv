@@ -40,10 +40,10 @@ const Skill = () => {
                                             </div>
                                         </div>
                                         <div className="arlo_tm_progress" data-value="85" data-color="#000">
-                                            <span><span className="label">Design UI/UX<span className="experience"></span></span><span className="number">85%</span></span>
+                                            <span><span className="label">Nextjs<span className="experience"></span></span><span className="number">100%</span></span>
                                             <div className="arlo_tm_bar_bg">
                                                 <ProgressBar
-                                                    completed={85}
+                                                    completed={100}
                                                     bgColor={"#333"}
                                                     height="8px"
                                                     isLabelVisible={false}
@@ -63,25 +63,25 @@ const Skill = () => {
                                 <div className="arlo_tm_mini_title_holder">
                                     <h4>Kĩ Năng Backend</h4>
                                 </div>
-                                <li >Ngôn ngữ lập trình: Java, PHP, Javascript</li>
+                                <li >Ngôn ngữ lập trình: Java, Javascript/Typescript</li>
                                 <li>Viết Resful APIs</li>
-                                <li>Framework: Express, Nest.JS, Spring Boot</li>
-                                <li>Database: Postgres, MongoDB</li>
+                                <li>Framework:Spring Boot</li>
+                                <li>Database: MySQL</li>
                             </div>
                             <div className="rightbox">
                                 <div className="progress_bar_wrap_total">
                                     <div className="arlo_tm_progress_wrap" data-size="small" data-round="c" data-strip="off">
-                                        <div className="arlo_tm_progress" data-value="95" data-color="#000">
-                                            <span><span className="label">Nest.JS<span className="experience"></span></span><span className="number">80%</span></span>
+                                        {/* <div className="arlo_tm_progress" data-value="95" data-color="#000">
+                                            <span><span className="label">Nest.JS<span className="experience"></span></span><span className="number">50%</span></span>
                                             <div className="arlo_tm_bar_bg">
                                                 <ProgressBar
-                                                    completed={80}
+                                                    completed={50}
                                                     bgColor={"#333"}
                                                     height="8px"
                                                     isLabelVisible={false}
                                                 />
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div className="arlo_tm_progress" data-value="100" data-color="#000">
                                             <span><span className="label">JavaSpring<span className="experience"></span></span><span className="number">100%</span></span>
                                             <div className="arlo_tm_bar_bg">
@@ -94,7 +94,7 @@ const Skill = () => {
                                             </div>
                                         </div>
                                         <div className="arlo_tm_progress" data-value="85" data-color="#000">
-                                            <span><span className="label">Database Postgres/MongoDB<span className="experience"></span></span><span className="number">85%</span></span>
+                                            <span><span className="label">Database MySql<span className="experience"></span></span><span className="number">85%</span></span>
                                             <div className="arlo_tm_bar_bg">
                                                 <ProgressBar
                                                     completed={85}
