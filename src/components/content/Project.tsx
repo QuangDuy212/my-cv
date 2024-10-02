@@ -185,8 +185,8 @@ const Project = () => {
                     <li><strong>Backend:</strong> {dataView?.detail.backend}</li>
                     <li><strong>Số lượng thành viên:</strong> 1</li>
                     <li><strong>Vai trò:</strong> {dataView?.detail.role}</li>
-                    <li><strong>Demo:</strong> <a href={`${dataView?.detail.githubFrontend}`} style={{ cursor: "pointer" }}>{dataView?.detail.githubFrontend}</a></li>
-                    <li><strong>Github:</strong> <a href={`${dataView?.detail.githubBackend}`} style={{ cursor: "pointer" }}>{dataView?.detail.githubBackend}</a></li>
+                    <li><strong>Frontend Github:</strong> <a href={`${dataView?.detail.githubFrontend}`} style={{ cursor: "pointer" }}>{dataView?.detail.githubFrontend}</a></li>
+                    <li><strong>Backend Github:</strong> <a href={`${dataView?.detail.githubBackend}`} style={{ cursor: "pointer" }}>{dataView?.detail.githubBackend}</a></li>
                 </ul>
             </Modal>
         </>
