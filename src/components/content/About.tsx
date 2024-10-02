@@ -6,6 +6,7 @@ import vietnam from 'src/assets/cvViet.pdf'
 import { TypeAnimation } from 'react-type-animation';
 import { useEffect, useRef } from 'react';
 import Parallax from 'parallax-js';
+import { Col, Row } from 'antd';
 
 const About = () => {
     const sceneEl = useRef(null);
@@ -102,15 +103,44 @@ const About = () => {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="buttons_wrap">
-                                        <ul>
-                                            <li>
-                                                <a href={english} download><span>Download CV English</span></a>
-                                            </li>
-                                            <li>
-                                                <a href={vietnam} download><span>Download CV Vietnamese</span></a>
-                                            </li>
-                                        </ul>
+                                    <div
+                                        // className="buttons_wrap"
+                                        style={{ width: "100%", float: "left" }}
+                                    >
+                                        <Row gutter={[20, 20]}>
+                                            <Col
+                                                sm={24} md={24} xl={12}>
+                                                <a href={english} download style={{
+                                                    textDecoration: "none",
+                                                    color: "#fff",
+                                                    backgroundColor: "#E3872D",
+                                                    fontWeight: 600,
+                                                    fontFamily: "Montserrat",
+                                                    padding: "12px 35px",
+                                                    borderRadius: "3px",
+                                                    display: "flex",
+                                                    justifyContent: "center", alignItems: "center",
+                                                    position: "relative",
+                                                    overflow: "hidden",
+                                                }}><span>Download CV English</span></a>
+                                            </Col>
+                                            <Col
+                                                sm={24} md={24} xl={12}>
+                                                <a href={vietnam} download style={{
+                                                    textDecoration: "none",
+                                                    color: "#fff",
+                                                    backgroundColor: "#E3872D",
+                                                    fontWeight: 600,
+                                                    fontFamily: "Montserrat",
+                                                    padding: "12px 35px",
+                                                    borderRadius: "3px",
+                                                    display: "flex",
+                                                    justifyContent: "center", alignItems: "center",
+                                                    position: "relative",
+                                                    overflow: "hidden",
+                                                }}><span>Download CV Vietnamese</span></a>
+                                            </Col>
+                                        </Row>
                                     </div>
                                 </div>
                             </div>
